@@ -86,3 +86,30 @@ std::cout << num << " ";. Здесь std::cout представляет пото
 
 Таким образом, этот цикл позволяет последовательно перебрать все элементы 
 вектора numbers и вывести их на экран, разделяя пробелами.*/
+
+
+
+
+/*Данная строка кода использует функцию std::sort(), 
+которая реализует алгоритм сортировки, называемый 
+"интроспективной сортировкой" или "быстрой сортировкой" 
+(quicksort) в стандартной библиотеке C++.*/
+/*
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+int main() {
+    std::vector<int> numbers = { 5, 2, 8, 1, 9 };
+
+    std::sort(numbers.begin(), numbers.end());
+
+    std::cout << "Отсортированный вектор: ";
+    for (const auto& num : numbers) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+*/
